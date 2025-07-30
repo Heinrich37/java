@@ -5,7 +5,7 @@ public class Test4 {
         int num = 10;
         num++;
         num++;
-        num++;
+        num++;// esse ++ é igual a x = x +1
         num++;
         num++;
         num++;
