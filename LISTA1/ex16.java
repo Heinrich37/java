@@ -1,9 +1,26 @@
 package LISTA1;
 
-public class ex16 {
-    "123"for
-    i in
+import java.util.Scanner;
 
-    range(len("123"))
-        lista.append(123[i])
+public class ex16 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("EMPRÉSTIMOS BANCO ");
+
+        System.out.println("Informe qual o seu salario atual: ");
+        Double salario = input.nextDouble();
+
+        System.out.println("Informe o valor do empréstimo desejado: ");
+        Double emprestimo = input.nextDouble();
+
+        Double condicao = salario * 0.20;
+
+        if (emprestimo > condicao) {
+            System.out.println("Empréstimo não concedido!!!");
+        } else {
+            System.out.println("Empréstimo concedido");
+        }
+
+    }
+
 }
