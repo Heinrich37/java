@@ -1,0 +1,12 @@
+public class carro {
+    public static void main(String[] args){
+        private int portas;
+        private String placa;
+
+        public String getPlaca(){
+
+        }
+    }
+
+
+}
